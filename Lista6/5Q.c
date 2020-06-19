@@ -37,9 +37,9 @@ tam = strlen(Palavra);//Armazena o tamanho da string para caso o usuario digite 
     }
   }
 
-    Criptografia[i] = '\0';//Adiciona o \0 ao final do arquivo
+    Criptografia[i] = '\0';//Adiciona o \0 ao final do arquivo para reconhecer como string
 
-  printf("Palavra criptografada: %s", Criptografia); // não sei pq está imprimindo a palavra.. =/
+  printf("Palavra criptografada: %s", Criptografia);
 
   return 0;
 
